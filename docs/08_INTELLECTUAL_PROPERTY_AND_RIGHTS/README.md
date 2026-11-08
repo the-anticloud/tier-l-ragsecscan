@@ -1,0 +1,6 @@
+# 08_INTELLECTUAL_PROPERTY_AND_RIGHTS
+
+**Project:** L_RAGSECSCAN
+**Tier:** Tier 6
+
+Documentation for L_RAGSECSCAN.

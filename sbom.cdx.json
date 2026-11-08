@@ -1,0 +1,158 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:8b5f9097-cad0-595c-82ff-fbd852457bdf",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-13T21:19:38Z",
+    "component": {
+      "type": "application",
+      "name": "L_RAGSECSCAN",
+      "version": "unknown",
+      "bom-ref": "pkg:generic/anticloud/L_RAGSECSCAN@unknown",
+      "purl": "pkg:generic/anticloud/L_RAGSECSCAN@unknown",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "anticloud:source-commit",
+        "value": ""
+      },
+      {
+        "name": "anticloud:source-url",
+        "value": ""
+      },
+      {
+        "name": "anticloud:tier",
+        "value": "tier-agent"
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "bc-detect-secrets",
+      "version": "==1.5.43",
+      "purl": "pkg:pypi/bc-detect-secrets@1.5.43",
+      "bom-ref": "pypi/bc-detect-secrets@==1.5.43"
+    },
+    {
+      "type": "library",
+      "name": "faker",
+      "version": ">=37",
+      "purl": "pkg:pypi/faker@37",
+      "bom-ref": "pypi/faker@>=37"
+    },
+    {
+      "type": "library",
+      "name": "fuzzysearch",
+      "version": ">=0.7",
+      "purl": "pkg:pypi/fuzzysearch@0.7",
+      "bom-ref": "pypi/fuzzysearch@>=0.7"
+    },
+    {
+      "type": "library",
+      "name": "json-repair",
+      "version": "==0.44.1",
+      "purl": "pkg:pypi/json-repair@0.44.1",
+      "bom-ref": "pypi/json-repair@==0.44.1"
+    },
+    {
+      "type": "library",
+      "name": "nltk",
+      "version": ">=3.9.1",
+      "purl": "pkg:pypi/nltk@3.9.1",
+      "bom-ref": "pypi/nltk@>=3.9.1"
+    },
+    {
+      "type": "library",
+      "name": "presidio-analyzer",
+      "version": "==2.2.358",
+      "purl": "pkg:pypi/presidio-analyzer@2.2.358",
+      "bom-ref": "pypi/presidio-analyzer@==2.2.358"
+    },
+    {
+      "type": "library",
+      "name": "presidio-anonymizer",
+      "version": "==2.2.358",
+      "purl": "pkg:pypi/presidio-anonymizer@2.2.358",
+      "bom-ref": "pypi/presidio-anonymizer@==2.2.358"
+    },
+    {
+      "type": "library",
+      "name": "regex",
+      "version": "==2024.11.6",
+      "purl": "pkg:pypi/regex@2024.11.6",
+      "bom-ref": "pypi/regex@==2024.11.6"
+    },
+    {
+      "type": "library",
+      "name": "tiktoken",
+      "version": ">=0.9",
+      "purl": "pkg:pypi/tiktoken@0.9",
+      "bom-ref": "pypi/tiktoken@>=0.9"
+    },
+    {
+      "type": "library",
+      "name": "torch",
+      "version": ">=2.4.0",
+      "purl": "pkg:pypi/torch@2.4.0",
+      "bom-ref": "pypi/torch@>=2.4.0"
+    },
+    {
+      "type": "library",
+      "name": "transformers",
+      "version": "==4.51.3",
+      "purl": "pkg:pypi/transformers@4.51.3",
+      "bom-ref": "pypi/transformers@==4.51.3"
+    },
+    {
+      "type": "library",
+      "name": "structlog",
+      "version": ">=24",
+      "purl": "pkg:pypi/structlog@24",
+      "bom-ref": "pypi/structlog@>=24"
+    },
+    {
+      "type": "library",
+      "name": "asyncio",
+      "version": "==3.4.3",
+      "purl": "pkg:pypi/asyncio@3.4.3",
+      "bom-ref": "pypi/asyncio@==3.4.3"
+    },
+    {
+      "type": "library",
+      "name": "fastapi",
+      "version": "==0.115.12",
+      "purl": "pkg:pypi/fastapi@0.115.12",
+      "bom-ref": "pypi/fastapi@==0.115.12"
+    },
+    {
+      "type": "library",
+      "name": "llm-guard",
+      "version": "==0.3.16",
+      "purl": "pkg:pypi/llm-guard@0.3.16",
+      "bom-ref": "pypi/llm-guard@==0.3.16"
+    },
+    {
+      "type": "library",
+      "name": "pydantic",
+      "version": "==2.11.4",
+      "purl": "pkg:pypi/pydantic@2.11.4",
+      "bom-ref": "pypi/pydantic@==2.11.4"
+    },
+    {
+      "type": "library",
+      "name": "pyyaml",
+      "version": "==6.0.2",
+      "purl": "pkg:pypi/pyyaml@6.0.2",
+      "bom-ref": "pypi/pyyaml@==6.0.2"
+    }
+  ]
+}
